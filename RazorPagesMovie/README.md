@@ -28,3 +28,9 @@ Commands must be run from the project root directory (Program.cs path)
 
 ## Part 6: Add search to ASP.NET Core Razor Pages
 Add search to movies by title or genre
+
+## Part 7: Add a new field to a Razor Page in ASP.NET Core
+1) Adding a Rating Property to the Movie Model
+2) 
+        dotnet ef migrations add rating
+        dotnet ef database update
