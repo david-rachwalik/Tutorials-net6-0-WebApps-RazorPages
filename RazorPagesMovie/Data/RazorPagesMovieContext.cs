@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using RazorPagesMovie.Models;
 
-namespace Data
+namespace RazorPagesMovie.Data
 {
     public class RazorPagesMovieContext : DbContext
     {
