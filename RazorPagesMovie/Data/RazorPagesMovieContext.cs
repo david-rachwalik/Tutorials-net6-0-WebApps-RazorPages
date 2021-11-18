@@ -7,9 +7,9 @@ using RazorPagesMovie.Models;
 
 namespace Data
 {
-    public class MainContext : DbContext
+    public class RazorPagesMovieContext : DbContext
     {
-        public MainContext (DbContextOptions<MainContext> options)
+        public RazorPagesMovieContext (DbContextOptions<RazorPagesMovieContext> options)
             : base(options)
         {
         }

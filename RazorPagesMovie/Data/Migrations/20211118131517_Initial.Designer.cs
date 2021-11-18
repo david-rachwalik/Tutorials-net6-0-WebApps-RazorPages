@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace RazorPagesMovie.Data.Migrations
 {
-    [DbContext(typeof(MainContext))]
+    [DbContext(typeof(RazorPagesMovieContext))]
     [Migration("20211118131517_Initial")]
     partial class Initial
     {
