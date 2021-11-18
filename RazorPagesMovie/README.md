@@ -21,3 +21,10 @@ Commands must be run from the project root directory (Program.cs path)
 ## Part 04
 1) Create the database seed (SeedData class in Models)
 2) Add the seed initializer
+
+## Part 5: Update the generated pages in an ASP.NET Core app
+1) Update Movie model with more data annotations
+2) Add route template to Edit, Details, and Delete pages
+
+## Part 6: Add search to ASP.NET Core Razor Pages
+Add search to movies by title or genre
