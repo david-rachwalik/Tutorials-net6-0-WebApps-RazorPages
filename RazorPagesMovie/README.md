@@ -13,6 +13,7 @@ Commands must be run from the project root directory (Program.cs path)
         dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
         dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 4) [dotnet-aspnet-codegenerator (Scaffolding)](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/tools/dotnet-aspnet-codegenerator?view=aspnetcore-6.0 "ASP.NET Core scaffolding engine")
+
         dotnet-aspnet-codegenerator razorpage -m Movie -dc RazorPagesMovie.Data.RazorPagesMovieContext -udl -outDir Pages/Movies --referenceScriptLibraries
 5) Add initial migration snapshot
         dotnet ef migrations add "Initial" --context RazorPagesMovie.Data.RazorPagesMovieContext --output-dir ./Data/Migrations
